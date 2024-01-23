@@ -10,7 +10,6 @@ Welcome to the Trade Data Web App! This application fetches real-time trade data
 ## Features
 
 - **Real-time Data:** Fetches live trade data from external sources.
-- **Market Insights:** Provides users with up-to-the-minute insights into market trends.
 - **User-Friendly Interface:** Offers a user-friendly interface for seamless navigation and data visualization.
 
 ## Technologies
