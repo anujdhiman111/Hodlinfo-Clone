@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WazirX Data Display</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img src="./images/HODLINFO.8f78fc06.png" class="hodlinfo-logo">
+          </div>
+
+          <div class="currency-conversion">
+            <div class="currency-section">
+              <div class ="SelectedCurrencyDropdown">
+                <select class="selectedCurrency">
+                  <option value="INR" selected>INR</option>
+                </select>            
+              </div>
+  
+              <div id="currencyDropdown">
+                
+              </div>
+              <div class="buyButtonLink">
+                <button class="buyButton">Buy BTC</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="link-container">
+            <button class="telegram-button" type="button">Connect Telegram</button>
+          </div>
+        </div>
+        <div class="bestPriceTradeContainer">
+          <h2 class="PriceTradeHeading fillColorGrey">Best Price To Trade</h2>
+          <div class="main-section">
+            <div class="min-container">
+              <h2 class="min-percentage fillColorBlue">0.1 %</h2>
+              <p class="minutes fillColorGrey">5 Mins</p>
+            </div>
+  
+            <div class="hour-container">
+              <h2 class="hour-percentage fillColorBlue">0.96 %</h2>
+              <p class="hour fillColorGrey">1 Hour</p>
+            </div>
+  
+            <div class="bestPriceContainer">
+              <h1 class="bestPriceValue" id="bestPrice">26,51,110</h1>
+            </div>
+  
+            <div class="day-container">
+              <h2 class="day-percentage fillColorBlue">2.73 %</h2>
+              <p class="day fillColorGrey">1 Day</p>
+            </div>
+  
+            <div class="sevenDays-container">
+              <h2 class="sevenDays-percentage fillColorBlue">7.51 %</h2>
+              <p class="sevenDays fillColorGrey">7 Days</p>
+            </div>
+          </div>
+          <h3 class="AveragePriceHeading fillColorGrey">Average BTC/INR net price Including Commission</h3>
+        </div>
+        <div class="topResults">
+          <div id="dataDisplay"></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

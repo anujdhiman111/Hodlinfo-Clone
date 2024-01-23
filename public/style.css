@@ -1,0 +1,182 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #191d28;
+    color: #fff;
+  }
+
+  .main-content{
+    padding: 0 2%;
+  }
+
+  .header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-top: 30px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  select, .buyButton{
+    background-color: #2E3241;
+    border: none;
+    color: #fff;
+    padding: 8px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .currency-conversion{
+    position: relative;
+  }
+
+  .currency-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
+    position: absolute;
+    left: 35%;
+  }
+
+  .fillColorBlue{
+    color: #6CCACB;
+  }
+
+  .fillColorGrey{
+    color: #7B7E84;
+  }
+
+  .bestPriceTradeContainer{
+    text-align: center;
+  }
+
+  .bestPriceValue{
+    font-size: xxx-large;
+  }
+
+  .telegram-button{
+    background-color: #3DC6C1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 15px;
+  }
+  
+  .main-section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+
+  .main-section h2{
+    font-size: xx-large;
+  }
+
+  #dataDisplay {
+    margin-top: 20px;
+    overflow: auto;
+  }
+
+  table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0 1em;
+  }
+
+  th{
+    font-size: 24px;
+  }
+
+  tbody tr{
+    background-color: #2E3241;
+    margin-bottom: 10px;
+  }
+
+  tbody td{
+    padding: 12px 10px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  tbody td:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+
+  tbody td:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .main-section h2{
+      font-size: large;
+    }
+
+    .currency-section{
+      width: 55%;
+      left: 25%;
+    }
+
+    .bestPriceValue{
+      font-size: xx-large;
+    }
+
+    th {
+      font-size: 14px;
+    }
+    tbody td{
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .header{
+      display: block;
+      text-align: center;
+    }
+
+    .currency-section{
+      width: 100%;
+      left: 0;
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    .logo img{
+      width: 65%;
+    }
+
+    .main-section{
+      grid-template-columns: 18% 18% 28% 18% 18%;
+    }
+
+    .main-section h2{
+      font-size: small;
+    }
+
+    .main-section p{
+      font-size: 10px;
+    }
+
+    .bestPriceValue{
+      font-size: medium;
+    }
+
+    th {
+      font-size: 10px;
+    }
+    tbody td{
+      font-size: 10px;
+    }
+    .PriceTradeHeading{
+      font-size: 18px;
+    }
+    .AveragePriceHeading{
+      font-size: 14px;
+    }
+  }
