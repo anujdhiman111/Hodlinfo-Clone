@@ -26,7 +26,7 @@ To get started with the Hodlinfo Web App, follow these installation steps:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/trade-data-web-app.git](https://github.com/anujdhiman111/Hodlinfo-Clone.git)
+git clone https://github.com/anujdhiman111/Hodlinfo-Clone.git
 
 # Navigate to the project directory
 cd Hodlinfo-Clone
